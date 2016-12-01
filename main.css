@@ -1,0 +1,40 @@
+html{
+  font-size: 16px;
+}
+
+.top-section {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background: url('img/main-bg.jpg') center no-repeat;
+  background-size: cover;
+  padding-left: 20px;
+}
+
+.ham {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  
+}
+
+.side-menu-icon-container {
+  width: 70px;
+  position: fixed;
+  top: 60vh;
+  right: 10px;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 50%;
+}
+.item img{
+  width: 100%;
+}
+
